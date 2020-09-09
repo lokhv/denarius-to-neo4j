@@ -15,7 +15,7 @@ $redis = new Redis();
 $redis->connect(REDIS_IP, REDIS_PORT);
 
 // Composer
-require_once 'vendor/autoload.php';
+require_once 'Composer/autoload.php';
 use GraphAware\Neo4j\Client\ClientBuilder;  // (graphaware/neo4j-php-client)
 
 // Neo4j
