@@ -1,6 +1,6 @@
 <?php
 
-define("BLOCKS", '/home/user/.bitcoin/blocks');
+define("BLOCKS", '/home/lokh/snap/denarius/common/.denarius');
 define("TESTNET", false); // Probably not, but; are you reading blk.dat files from Bitcoin's testnet?
 
 define("NEO4J_USER", 'neo4j');
